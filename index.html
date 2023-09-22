@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <div class="form-control">
+            <label for="person-fname">First Name: </label>
+            <input type="text" name="fname" id="person-fname" value = "random1" placeholder="Enter your first name... ">
+        </div>
+        <div class="form-control">
+            <label for="person-lname">Last Name: </label>
+            <input type="text" name="lname" id="person-lname" value = "random1" placeholder="Enter your last name...">
+        </div>
+        <div class="form-control">
+            <label for="person-age">Age: </label>
+            <input type="number" name="age" id="person-age" value = "12" placeholder="Enter your age...">
+        </div>
+        <div class="form-control">
+            <label for="person-phone">Phone: </label>
+            <input type="tel" name="phone" id="person-phone" value = "123123123123" placeholder="Enter your phone...">
+        </div>
+        <div class="form-control">
+            <label for="person-email">Email: </label>
+            <input type="email" name="email" id="person-email" value = "random1@asd.com" placeholder="Enter your email...">
+        </div>
+        <div class="form-control-range">
+            <label for="person-ITLevel">IT knowledge Level: </label>
+            <input min="1" max="10" value="5" type="range" name="ITLevel" id="person-ITLevel" placeholder="Select your knowledge level from 1-10...">
+        </div>
+        <div class="form-control-radio">
+            <label for="person-FEU-1gr">FEU 1gr: </label>
+            <input type="radio" name="groupdID" id="person-FEU-1gr" placeholder="Select your group ID...">
+            <label for="person-FEU-2gr">FEU 2gr: </label>
+            <input type="radio" name="groupdID" id="person-FEU-2gr" placeholder="Select your group ID...">
+            <label for="person-FEU-3gr">FEU 3gr: </label>
+            <input type="radio" name="groupdID" id="person-FEU-3gr" placeholder="Select your group ID...">
+            <label for="person-FEU-4gr">FEU 4gr: </label>
+            <input type="radio" name="groupdID" id="person-FEU-4gr" placeholder="Select your group ID...">
+            <label for="person-FEU-5gr">FEU 5gr: </label>
+            <input type="radio" name="groupdID" id="person-FEU-5gr" placeholder="Select your group ID...">
+            <label for="person-FEU-6gr">FEU 6gr: </label>
+            <input type="radio" name="groupdID" id="person-FEU-6gr" placeholder="Select your group ID...">
+            <label for="person-FEU-7gr">FEU 7gr: </label>
+            <input type="radio" name="groupdID" id="person-FEU-7gr" placeholder="Select your group ID...">
+            <label for="person-FEU-8gr">FEU 8gr: </label>
+            <input type="radio" name="groupdID" id="person-FEU-8gr" placeholder="Select your group ID...">
+            <label for="person-FEU-9gr">FEU 9gr: </label>
+            <input type="radio" name="groupdID" id="person-FEU-9gr" placeholder="Select your group ID...">
+            <label for="person-FEU-10gr">FEU 10gr: </label>
+            <input type="radio" name="groupdID" id="person-FEU-10gr" placeholder="Select your group ID...">
+        </div>
+        <div class="form-control-checkbox">
+            <label for="person-language-javascript">JavaScript: </label>
+            <input type="checkbox" name="language" id="person-language-javascript" placeholder="Select your Programming Language...">
+            <label for="person-language-Python">Python: </label>
+            <input type="checkbox" name="language" id="person-language-Python" placeholder="Select your Programming Language...">
+            <label for="person-language-C++">C++: </label>
+            <input type="checkbox" name="language" id="person-language-C++" placeholder="Select your Programming Language...">
+            <label for="person-language-C#">C#: </label>
+            <input type="checkbox" name="language" id="person-language-C#" placeholder="Select your Programming Language...">
+        </div>
+        <input type="submit">
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- PIRMA DALIS:
+Sukurti kontaktų formą.
+1. Kontaktų formoje turi būti šie laukeliai:
+    1. Tekstinis laukelis vardui (privalomas).
+    2. Tekstinis laukelis pavardei (privalomas).
+    3. Skaičiaus laukelis amžiui (privalomas).
+    4. Laukelis įvesti telefono numerį (neprivalomas).
+    5. Laukelis įvesti el. paštą (privalomas).
+    6. Range tipo laukelis, kuris skirtas įvertinti savo IT žinias nuo 1 iki 10. Galimas vertinimas tik sveikiems skaičiams.
+    7. Radio tipo laukeliai, kuriuose pasirenkamas grupės numeris. Turi būti galimybė pasirinkti grupes nuo FEU 1gr. iki FEU 10gr.
+    8. Checkbox tipo laukeliai, kuriuose galima pasirinkti dominančias programavimo kalbas (bent 4 skirtingi checkbox elementai).
+    9. Šalia kiekvieno įvesties (input) elemento, pridėti label elementą, kuris žymi laukelio pavadinimą.
+
